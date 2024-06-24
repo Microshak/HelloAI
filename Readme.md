@@ -22,3 +22,10 @@ http://localhost:8888/jupyter/lab/
 You should see the UI and a few notbooks.  Click on the notebooks and run the code with the play button.
 
 
+
+# Need Help?
+Click on the video below
+
+
+
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi_webp/L2QdRDGdXTU/mq2.webp?sqp=CLjd57MG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFwgXChcMA8=&rs=AOn4CLAbo_aM3Prgy3s-XdroIeX4TYJXQQ)](https://youtu.be/L2QdRDGdXTU)
