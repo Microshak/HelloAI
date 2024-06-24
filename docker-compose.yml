@@ -1,0 +1,34 @@
+services:
+
+  jupyter:
+      deploy:
+          resources:
+              reservations:
+                  devices:
+                      - driver: nvidia
+                        count: all
+                        capabilities:
+                            - gpu
+      stdin_open: true
+      tty: true
+      build:
+        context: .
+        dockerfile: Dockerfile
+      volumes:
+        - type: bind
+          source: notebooks
+          target: /home/yovyan/work
+      ports:
+        - 8888:8888
+      environment:
+        NotebookApp.base_url: jupyter
+        JUPYTERHUB_SERVICE_PREFIX: /jupyter/
+      
+
+     
+   
+    
+
+volumes:
+  notebooks:
+

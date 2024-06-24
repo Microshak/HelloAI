@@ -1,0 +1,14 @@
+langchain
+huggingface_hub
+langchain-community
+diffusers
+wikipedia
+
+
+#tensorflow
+#matplotlib
+
+#pandas
+#sentence_transformers
+#keras-cv
+
